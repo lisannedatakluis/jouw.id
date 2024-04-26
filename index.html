@@ -4,28 +4,91 @@
 <link rel="icon" type="image/svg+xml" href="./logo.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <style>
-html, body {
-    height: 100%
-}
+    html, body {
+        height: 100%
+    }
 
-body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    a {
+        border-bottom: 2px solid #f4717b;
+        color: #02006f;
+        text-decoration: none;
+    }
 
-h1 {
-    color: #02006f;
-    font-family: Solway, sans-serif;
-    font-size: 10vw;
-    text-align: center;
-}
+    a:hover {
+        border-bottom: 2px solid #02006f;
+        color: #f4717b;
+    }
 
-img {
-    margin-top: 5%;
-    max-width: 80%;
-}
+    body {
+        color: #02006f;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: Solway, sans-serif;
+        font-size: max(1em, 2vw);
+        justify-content: space-around;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img {
+        margin-top: 5%;
+        max-width: 80%;
+    }
+
+    li {
+        margin: 5% 0;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    input[type="email"], input[type="text"] {
+        border: 1px solid #02006f;
+        border-radius: 5px;
+        font-size: 1em;
+        padding: 0.5em;
+        margin: 0.5em 0;
+    }
+
+    button {
+        background-color: #f4717b;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 1em;
+        padding: 0.5em;
+        margin: 0.5em 0;
+    }
+
+    input[type="submit"] {
+        background-color: #02006f;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 1em;
+        padding: 0.5em;
+        margin: 0.5em 0;
+        font-family: Solway, sans-serif;
+    }
+
+    #mc_embed_signup_scroll {
+        width: fit-content;
+        margin: 3em auto;
+    }
+
+    .mc-field-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .asterisk {
+        color: #f4717b;
+    }
 </style>
 <img src="./logo.svg" alt="jouw.id logo" />
 <section>
